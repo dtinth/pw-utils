@@ -13,4 +13,4 @@ jobs:
     steps:
       - uses: actions/checkout@v6
       - uses: voidzero-dev/setup-vp@v1
-      - run: pnpm publish --no-git-checks
+      - run: vp pm publish --no-git-checks
