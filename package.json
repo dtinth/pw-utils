@@ -29,6 +29,7 @@
     "dev": "vp pack --watch",
     "test": "vp test",
     "check": "vp check",
+    "typedoc": "typedoc --json typedoc.json src/index.ts",
     "prepublishOnly": "vp run build",
     "prepare": "vp config"
   },
@@ -37,9 +38,11 @@
     "@types/node": "^25.5.0",
     "@typescript/native-preview": "7.0.0-dev.20260316.1",
     "bumpp": "^11.0.1",
+    "typedoc": "^0.28.18",
     "typescript": "^5.9.3",
     "vite-plus": "^0.1.11"
   },
+  "typedoc": "typedoc.json",
   "packageManager": "pnpm@10.32.1",
   "pnpm": {
     "overrides": {
